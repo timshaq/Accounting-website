@@ -9,11 +9,11 @@
     </ul>
   </li>
 
-    <li>
+  <li>
       <h2>30.03.20 | HTML | SASS |</h2>
       <ul>
         <li>Adaptation for other permissions</li>
       </ul>
-    </li>
+  </li>
 
 </ul>
