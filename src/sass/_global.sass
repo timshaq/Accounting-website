@@ -1,0 +1,32 @@
+html, body
+	max-width: 1920px
+	min-width: 320px
+	margin: 0
+	font-family: 'Montserrat', sans-serif
+	@media (min-width: 1920px)
+		margin: 0 auto
+html
+	overflow-x: hidden
+body
+	overflow: hidden
+
+*[class*="fix-container"]
+	width: (124000%/1440)
+	margin: 0 auto
+	@media(max-width: 600px)
+		width: 375px
+		@media(max-width: 400px)
+			width: 266px
+
+*[class*="title"]
+	font-family: 'Playfair Display', sans-serif
+
+.montserat-medium-font
+	font-family: "Montserrat Medium", sans-serif
+	font-weight: 500
+
+.overflow-x
+	overflow-x: hidden
+
+.overflow-y
+	overflow-y: visible

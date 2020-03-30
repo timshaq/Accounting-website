@@ -1,0 +1,55 @@
+.header
+	height: 145px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	@media(max-width: 600px)
+		height: 47px
+	& .header__logo
+		@media(max-width: 600px)
+			width: 50px
+		& .logo__img
+			max-width: 100%
+	& .share-icon
+		width: 294px
+		height: 33px
+		@media(max-width: 600px)
+			width: 125px
+			height: 18px
+			z-index: 1
+		& .share-icon__share-list
+			padding: 0
+			margin: 0
+			list-style-type: none
+			display: flex
+			& .share-list__item
+				margin: 0 32px 0 0
+				@media(max-width: 600px)
+					margin: 0 10px 0 0
+				& a
+					background-image: url(../../img/contacts__share-btn.png)
+					background-repeat: no-repeat
+					display: inline-block
+					width: 33px
+					height: 33px
+					background-size: cover
+					@media(max-width: 600px)
+						width: 17px
+						height: 16px
+				& .item__tel
+					background-position: left top
+				& .item__email
+					background-position: -44px
+					@media(max-width: 600px)
+						background-position: -21px
+				& .item__telegram
+					background-position: -89px
+					@media(max-width: 600px)
+						background-position: -42px
+				& .item__whatsapp
+					background-position: -133px
+					@media(max-width: 600px)
+						background-position: -64px
+				& .item__skype
+					background-position: right top
+					margin: 0

@@ -9,17 +9,7 @@
 /coverage
 
 # production
-/src
-/build
-/favicon
-/fonts
-/img
-/mp4
-index.html
-main.css.map
-styles.css.map
-README.md
-package.json
+
 
 # misc
 .DS_Store
