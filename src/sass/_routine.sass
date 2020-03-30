@@ -4,10 +4,17 @@
 	@media(max-width: 600px)
 		height: 725px
 	& .routine__cloud
+		width: (73200%/1440)
 		position: absolute
 		top: (-1300%/735)
 		left: (-1500%/1440)
 		z-index: 1
+		@media(max-width: 950px)
+			top: 4.23129%
+		@media(max-width: 720px)
+			top: 9.23129%
+		@media(max-width: 640px)
+			top: 18.23129%
 		@media(max-width: 600px)
 			width: 344px
 			height: 316px
@@ -19,8 +26,7 @@
 			top: -4px
 			left: 19px
 		& .cloud__img
-			@media(max-width: 600px)
-				max-width: 100%
+			width: 100%
 	& .routine__cloud--375
 		display: none
 		width: 185px
@@ -36,12 +42,14 @@
 		display: flex
 		justify-content: flex-end
 		& .routine__video-clip
-			width: 515px
+			width: (51500%/1440)
 			height: 317px
 			position: absolute
 			top: 160px
-			left: 127px
+			left: (12700%/1440)
 			z-index: 2
+			@media(max-width: 640px)
+				top: 204px
 			@media(max-width: 600px)
 				width: 240px
 				top: 105px
@@ -52,7 +60,7 @@
 				top: 86px
 				left: 64px
 			& video
-				max-width: 100%
+				width: 100%
 				max-height: 100%
 			& .video-controller
 				position: relative
@@ -91,9 +99,12 @@
 						height: 100%
 						background-color: #fff
 		& .routine__text-block
-			width: 610px
-			margin: 115px 0 0 69px
+			width: 48.36111%
+			margin: 115px 0 0 0
+			@media(max-width: 1200px)
+				margin: 0
 			@media(max-width: 600px)
+				width: 100%
 				text-align: center
 				margin: 370px 0 0 0
 			@media(max-width: 400px)
@@ -103,6 +114,12 @@
 				font-size: 36px
 				font-weight: 400
 				text-transform: uppercase
+				@media(max-width: 1065px)
+					font-size: 28px
+				@media(max-width: 950px)
+					font-size: 24px
+				@media(max-width: 800px)
+					font-size: 20px
 				@media(max-width: 600px)
 					font-size: 16px
 					margin: 0 0 34px 0
@@ -111,6 +128,8 @@
 				margin: 0 0 0 0
 				line-height: 31.45px
 				list-style-type: none
+				@media(max-width: 1065px)
+					padding: 0
 				@media(max-width: 600px)
 					text-align: left
 					padding: 0 0 0 80px
@@ -121,5 +140,9 @@
 			& li
 				font-size: 22px
 				font-weight: 400
-				@media(max-width: 600px)
+				@media(max-width: 1065px)
+					font-size: 16px
+				@media(max-width: 950px)
+					font-size: 14px
+				@media(max-width: 800px)
 					font-size: 12px

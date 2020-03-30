@@ -1,14 +1,22 @@
 .our-clients
 	height: 935px
 	position: relative
+	@media(max-width: 790px)
+		height: 775px
 	@media(max-width: 600px)
 		height: 615px
 	& .our-clients__circles
 		position: absolute
 		top: -508px
 		left: -370px
+		@media(max-width: 1180px)
+			width: 1385px
+		@media(max-width: 790px)
+			width: 1168px
 		@media(max-width: 600px)
 			display: none
+		& .circles__img
+			width: 100%
 	& .our-clients__circles--375
 		display: none
 		@media(max-width: 600px)
@@ -28,6 +36,9 @@
 			margin: 245px 0 0 0
 			width: 610px
 			height: 270px
+			@media(max-width: 790px)
+				width: 435px
+				margin: 130px 0 0 0
 			@media(max-width: 600px)
 				margin: 35px 0 0 0
 				width: 100%
@@ -44,6 +55,11 @@
 				font-size: 44px
 				font-weight: 400
 				text-transform: uppercase
+				@media(max-width: 1180px)
+					font-size: 36px
+				@media(max-width: 790px)
+					font-size: 27px
+					margin: 0 0 30px 0
 				@media(max-width: 600px)
 					margin: 0 0 26px 0
 					text-align: left
@@ -54,13 +70,22 @@
 				font-size: 27px
 				line-height: 1.5
 				letter-spacing: 1px
+				@media(max-width: 1180px)
+					font-size: 22px
+				@media(max-width: 790px)
+					font-size: 14px
 				@media(max-width: 600px)
 					font-size: 13px
 					line-height: normal
 					letter-spacing: normal
 		& .our-clients__blot
 			position: absolute
+			@media(max-width: 1180px)
+				width: 75px
+			@media(max-width: 790px)
+				width: 60px
 			& img
+				width: 100%
 				@media(max-width: 600px)
 					width: 43px
 			& .our-clients__position-container
@@ -90,6 +115,10 @@
 		& .blot1
 			top: (37700%/935)
 			left: 100px
+			@media(max-width: 1180px)
+				top: 36.32086%
+			@media(max-width: 790px)
+				top: 29.32086%
 			@media(max-width: 600px)
 				top: 208+77px
 				left: 58px
@@ -98,6 +127,12 @@
 		& .blot2
 			top: 701+18px
 			left: 320px
+			@media(max-width: 1180px)
+				top: 593px
+				left: 181px
+			@media(max-width: 790px)
+				top: 427px
+				left: 138px
 			@media(max-width: 600px)
 				top: 422px
 				left: 93px
@@ -106,6 +141,12 @@
 		& .blot3
 			top: 505+18px
 			left: 613px
+			@media(max-width: 1180px)
+				top: 471px
+				left: 372px
+			@media(max-width: 790px)
+				top: 309px
+				left: 290px
 			@media(max-width: 600px)
 				top: 376px
 				left: 167px
@@ -119,6 +160,12 @@
 		& .blot4
 			top: 402+18px
 			left: 961px
+			@media(max-width: 1180px)
+				top: 545px
+				left: 561px
+			@media(max-width: 790px)
+				top: 375px
+				left: 429px
 			@media(max-width: 600px)
 				top: 430px
 				left: 249px
@@ -134,6 +181,12 @@
 		& .blot5
 			top: 102+18px
 			left: 949px
+			@media(max-width: 1180px)
+				top: 268px
+				left: 578px
+			@media(max-width: 790px)
+				top: 159px
+				left: 416px
 			@media(max-width: 600px)
 				top: 302px
 				left: 277px
@@ -148,11 +201,15 @@
 			position: absolute
 			bottom: (-22700%/935)
 			right: (-31500%/1440)
+			@media(max-width: 1180px)
+				width: 447px
 			@media(max-width: 910px)
 				width: 300px
 				bottom: -9.27807%
 				right: -18.875%
-			@media(max-width: 550px)
+			@media(max-width: 650px)
+				width: 256px
+			@media(max-width: 590px)
 				width: 164px
 				height: 175px
 				bottom: 12px
