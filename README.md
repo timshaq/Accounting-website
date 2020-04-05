@@ -9,11 +9,20 @@
     </ul>
   </li>
 
-    <li>
+  <li>
       <h2>30.03.20 | HTML | SASS |</h2>
       <ul>
         <li>Adaptation for other permissions</li>
       </ul>
-    </li>
+  </li>
+
+  <li>
+      <h2>06.04.20 | HTML | SASS | JS | jQuery</h2>
+      <ul>
+        <li>Adaptation improvement</li>
+        <li>Clickability of elements</li>
+        <li>Video playback</li>
+      </ul>
+  </li>
 
 </ul>
