@@ -17,10 +17,19 @@
   </li>
 
   <li>
-      <h2>06.04.20 | HTML | SASS | JS | jQuery</h2>
+      <h2>05.04.20 | HTML | SASS | JS | jQuery</h2>
       <ul>
         <li>Adaptation improvement</li>
         <li>Clickability of elements</li>
+        <li>Video playback</li>
+      </ul>
+  </li>
+
+  <li>
+      <h2>06.04.20 | HTML | SASS | JS | jQuery</h2>
+      <ul>
+        <li>Hover effects</li>
+        <li>Email request submission</li>
         <li>Video playback</li>
       </ul>
   </li>

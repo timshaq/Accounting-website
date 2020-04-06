@@ -2,7 +2,14 @@
 <html lang="ru">
 <head>
 
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<title>Бухгалтерское сопровождение вашего бизнеса</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="build/css/styles.css">
+	<script src="jquery-3.4.1.js"></script>
+	<script src="jquery.maskedinput.js"></script>
+	<script src="build/js/script.js"></script>
+
 	<!-- fonts preload -->
 	<link rel="preload" href="../../fonts/playfair-display-v20-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 	<link rel="preload" href="../../fonts/playfair-display-v20-cyrillic_latin-regular.woff" as="font" type="font/woff" crossorigin="anonymous">
@@ -13,12 +20,6 @@
 	<link rel="preload" href="../../fonts/montserrat-v14-cyrillic_latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 	<link rel="preload" href="../../fonts/montserrat-v14-cyrillic_latin-500.woff" as="font" type="font/woff" crossorigin="anonymous">
 	<!-- fonts preload -->
-
-	<title>Бухгалтерское сопровождение вашего бизнеса</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="build/css/styles.css">
-	<script src="build/js/script.js"></script>
 
 	<!-- favicon — start -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
@@ -42,7 +43,7 @@
 	<div class="header__share-icon share-icon">
 		<ul class="share-icon__share-list">
 			<li class="share-list__item">
-				<a href="/animate_test.html" target="" class="item__tel"></a>
+				<a href="#" target="_blank" class="item__tel"></a>
 			</li>
 			<li class="share-list__item">
 				<a href="#" target="_blank" class="item__email"></a>
@@ -83,9 +84,9 @@
 		</div>
 
 		<form action="#" class="brief-services__form">
-			<input class="form__tel" type="text" placeholder="Ваш телефон">
-			<input class="form__name" type="text" placeholder="Ваше имя">
-			<button type="button">Консультация</button>
+			<input class="form__tel" type="text" placeholder="Ваш телефон" required id="input--tel">
+			<input class="form__name" type="text" placeholder="Ваше имя" required id="input--name">
+			<button class="form__btn cursor--pointer" type="button" id="send-form">Консультация</button>
 		</form>
 
 	</div>
@@ -154,7 +155,7 @@
 
 		<div class="our-clients__blot blot1">
 			<div class="animate-cloud">
-				<img src="img/our-clients__blot1.png" alt="" class="blot__img1" id="blot__img1">
+				<img src="img/our-clients__blot1.png" alt="" class="blot__img1 cursor--pointer" id="blot__img1">
 				<span class="animate--pulse1 mask"></span>
 			</div>
 			<div class="our-clients__position-container">
@@ -166,7 +167,7 @@
 		</div>
 		<div class="our-clients__blot blot2">
 			<div class="animate-cloud">
-				<img src="img/our-clients__blot2.png" alt="" class="blot__img2" id="blot__img2">
+				<img src="img/our-clients__blot2.png" alt="" class="blot__img2 cursor--pointer" id="blot__img2">
 				<span class="animate--pulse2 mask"></span>
 			</div>
 			<div class="our-clients__position-container">
@@ -178,7 +179,7 @@
 		</div>
 		<div class="our-clients__blot blot3">
 			<div class="animate-cloud">
-				<img src="img/our-clients__blot3.png" alt="" class="blot__img3" id="blot__img3">
+				<img src="img/our-clients__blot3.png" alt="" class="blot__img3 cursor--pointer" id="blot__img3">
 				<span class="animate--pulse3 mask"></span>
 			</div>
 			<div class="our-clients__position-container">
@@ -192,7 +193,7 @@
 		</div>
 		<div class="our-clients__blot blot4">
 			<div class="animate-cloud">
-				<img src="img/our-clients__blot4.png" alt="" class="blot__img4" id="blot__img4">
+				<img src="img/our-clients__blot4.png" alt="" class="blot__img4 cursor--pointer" id="blot__img4">
 				<span class="animate--pulse4 mask"></span>
 			</div>
 			<div class="our-clients__position-container">
@@ -206,7 +207,7 @@
 		</div>
 		<div class="our-clients__blot blot5">
 			<div class="animate-cloud">
-				<img src="img/our-clients__blot5.png" alt="" class="blot__img5" id="blot__img5">
+				<img src="img/our-clients__blot5.png" alt="" class="blot__img5 cursor--pointer" id="blot__img5">
 				<span class="animate--pulse5 mask"></span>
 			</div>
 			<div class="our-clients__position-container">
@@ -250,9 +251,7 @@
 		</div>
 
 		<div class="text-block">
-			<span class="text-block__title_montserrat">
-				ООО «АТЕ РИТЕЙЛ»
-			</span>
+			<h2 class="text-block__title_montserrat">ООО «АТЕ РИТЕЙЛ»</h2>
 			<span class="text-block__subtitle_montserrat">
 				Почтовый адрес: <span class="text-block__subtitle_medium">121596 а/я  1</span>
 			</span>
