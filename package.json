@@ -1,7 +1,7 @@
 {
-  "name": "graduate-layout-work",
+  "name": "accounting-website-layout-work",
   "version": "1.0.0",
-  "description": "My Graduate Layout Work for SkillBox",
+  "description": "My Layout Work ",
   "main": "index.js",
   "dependencies": {
     "del": "^5.1.0",
@@ -25,10 +25,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/testtimshaq/frontend-shakirov.git"
+    "url": "git+https:https://github.com/timshaq/accounting-website.git"
   },
   "bugs": {
-    "url": "https://github.com/testtimshaq/frontend-shakirov/issues"
+    "url": "https://github.com/timshaq/accounting-website/issues"
   },
-  "homepage": "https://github.com/testtimshaq/frontend-shakirov#readme"
+  "homepage": "https://github.com/timshaq/accounting-website#readme"
 }

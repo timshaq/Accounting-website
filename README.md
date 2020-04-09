@@ -13,7 +13,7 @@
   <li>
       <h2>30.03.20 | HTML | SASS |</h2>
       <ul>
-        <li>Adaptation for other permissions</li>
+        <li>Adaptation for other widths</li>
       </ul>
   </li>
 
