@@ -35,4 +35,12 @@
       </ul>
   </li>
 
+  <li>
+      <h2>10.04.20 | HTML | SASS | JS | jQuery</h2>
+      <ul>
+        <li>Additional hover effects</li>
+        <li>Improved form validation</li>
+      </ul>
+  </li>
+
 </ul>

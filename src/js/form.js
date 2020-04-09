@@ -8,11 +8,12 @@ $(function() {
   btn.on('click', function(ev) {
     ev.preventDefault;
     if (inpTel[0].value.length === 18) {
-      if (inpName[0].value.length < 2) {
-        alert('Поле "Ваше Имя" должно быть не короче двух букв');
+      if (inpName[0].validity.patternMismatch) {
+        alert('Поле "Ваше Имя" должно содержать в себе только буквы (не меньше двух)');
         inpName.addClass('error-input');
         setTimeout(function(){inpName.removeClass('error-input')}, 2000)
       } else {
+        console.log('send php')
         $.post( "send.php", {'tel': inpTel[0].value, 'name': inpName[0].value},
 					function( data ) {
 				  		if (data === 'ok') {
