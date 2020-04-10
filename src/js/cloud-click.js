@@ -57,7 +57,7 @@ cloud5.hover(
 )
 
   function showPop (popup) {
-    $(popup).css({'display':'block'})
+    $(popup).css({'display':'block','z-index':'2000'})
   }
   function hidePop (popup) {
     $(popup).css({'display':'none'})

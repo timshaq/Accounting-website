@@ -119,14 +119,16 @@
 					display: flex
 					justify-content: space-between
 					align-items: center
-					z-index: 2
 					@media(max-width: 925px)
 						left: -30px
 					@media(max-width: 790px)
 						width: 270px
+						height: 100px
 					@media(max-width: 600px)
 						width: 195px
 						height: 85px
+					& img
+						max-height: 100%
 					& .popup__text
 						width: 205px
 						font-size: 18px
@@ -140,6 +142,7 @@
 		& .blot1
 			top: (37700%/935)
 			left: 100px
+			z-index: 4
 			@media(max-width: 1200px)
 				top: 36.32086%
 			@media(max-width: 790px)
@@ -191,6 +194,7 @@
 		& .blot3
 			top: 505+18px
 			left: 613px
+			z-index: 3
 			@media(max-width: 1200px)
 				top: 479px
 				left: 376px
@@ -206,6 +210,8 @@
 			& .our-clients__position-container
 				& .popup
 					height: 154px
+					@media(max-width: 790px)
+						height: 100px
 					@media(max-width: 600px)
 						height: 100px
 					& img
@@ -242,6 +248,10 @@
 			& .our-clients__position-container
 				& .popup
 					height: 144px
+					@media(max-width: 890px)
+						left: -120px
+					@media(max-width: 790px)
+						height: 100px
 					@media(max-width: 600px)
 						height: 100px
 					@media(max-width: 400px)
@@ -267,6 +277,7 @@
 		& .blot5
 			top: 102+18px
 			left: 949px
+			z-index: 4
 			@media(max-width: 1200px)
 				top: 278px
 				left: 579px
@@ -282,6 +293,10 @@
 			& .our-clients__position-container
 				& .popup
 					height: 137px
+					@media(max-width: 890px)
+						left: -120px
+					@media(max-width: 790px)
+						height: 100px
 					@media(max-width: 600px)
 						height: 100px
 					@media(max-width: 400px)
