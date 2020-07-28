@@ -8,6 +8,7 @@ const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass');
+const babel = require("gulp-babel");
 
 const jsFiles = [
     './src/js/*.js'
@@ -34,6 +35,8 @@ function scripts() {
     return gulp.src(jsFiles)
 
     .pipe(concat('script.js'))
+    .pipe(babel())
+        .on('error', console.error.bind(console))
     .pipe(uglify({
         toplevel: true
     }))
